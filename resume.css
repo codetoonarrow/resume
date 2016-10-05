@@ -1,0 +1,127 @@
+/* =================================
+    GENERAL
+==================================== */
+
+html , body {
+  height: 100% ;
+  padding: 0;
+  margin: 0;
+  background: no-repeat bottom center;
+}
+
+header {
+  background: rgb(0,0,0);
+  background: rgba(0, 0, 0, 0.5);
+}
+
+p {
+  position: relative;
+  text-align: center;
+  padding: 0 400px;
+  color: white;
+  max-width: 600px;
+}
+
+.work {
+  color: white;
+  font-family:  'Quicksand', sans-serif;
+  font-size: 100px;
+  margin-top: 250px;
+}
+
+.about {
+  color: white;
+  font-family:  'Quicksand', sans-serif;
+  font-size: 30px;
+  margin-top: 300px;
+  margin-bottom: 300px;
+}
+
+.showcase {
+  position: relative;
+  height: 500px;
+  width: 700px;
+  left: 50%;
+  top: 50%;
+  bottom: 50%;
+  margin-left: -350px;
+}
+
+.discription {
+  color: white;
+  font-family:  'Quicksand', sans-serif;
+  font-size:15px;
+}
+
+
+/* =================================
+    HEADING
+==================================== */
+
+
+h1 {
+  position: relative;
+  text-align: center;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  position: relative;
+  text-align: center;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+/*h1 span {
+  color: white;
+  font-family:  'Open Sans', sans-serif;
+  letter-spacing:  2px;
+  background: rgb(0,0,0);
+  background: rgba(0, 0, 0, 0.5);
+  padding:0 391px 120px;
+  border-radius: 5px;
+  border-bottom: 1px solid white;
+
+}
+*/
+/* =================================
+    IMAGE
+==================================== */
+
+
+.bg {
+  position: fixed;
+  background-size: cover;
+  height: 100% ;
+  width:100%;
+}
+
+.center-image {
+  position: relative;
+  top: 70%;
+  left: 50%;
+  right:50%;
+  margin-left: -110px;
+  border-radius: 50%;
+	width: 200px;
+	height: 200px;
+  border: solid 10px white;
+}
+
+
+/* =================================
+    FOOTER
+==================================== */
+
+
+.twitter {
+  position: fixed;
+  bottom: 0;
+  right:0;
+  height: 40px;
+  width: 40px;
+  border-radius: 7px;
+}
