@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+.table-board {
+  font-size: 6em;
+  text-align: center;
+  border: 3px solid black;
+  width: 400px;
+  height: 400px;
+  margin: auto;
+  border: collapse;
+}
+
+td {
+  border: 3px solid black;
+  width: 33.33333333%;
+  height: 33.3333333%;
+}
